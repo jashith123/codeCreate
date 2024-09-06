@@ -1,0 +1,53 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Mukta', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.backgrounds div{
+    position: absolute;
+}
+
+.bg-main{
+    width: 150%;
+    height: 150%;
+    background: linear-gradient(to left, transparent, #4400c5, #4400ab);
+    top: -95%;
+    left: -10%;
+    transform: rotateZ(-15deg)skewX(30deg);
+    border-radius: 0 0 0 10rem;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.bg-1{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(transparent 60%, #ff26ac, #f724db);
+    top: -40%;
+    right: -10%;
+    transform: rotateZ(-15deg)skewX(30deg);
+    border-radius: 0 0 0 5rem;
+}
